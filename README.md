@@ -1,8 +1,7 @@
-# QCRAFT-Scheduler
+# Scheduler
 
 ## Description
-
-QCRAFT-Scheduler is a API for quantum circuit composing. The principal benefit is the lower cost and queue times by adding circuits of different developers together into a bigger one.
+Scheduler is a API for quantum circuit composing. The principal benefit is the lower cost and queue times by adding circuits of different developers together into a bigger one.
 
 ## Installation
 

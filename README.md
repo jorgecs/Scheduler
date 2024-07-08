@@ -1,7 +1,8 @@
 # Scheduler
-
+![Python Versions](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12-blue.svg)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/jorgecs/Scheduler/blob/main/LICENSE)
 ## Description
-Scheduler is a API for quantum circuit composing. The principal benefit is the lower cost and queue times by adding circuits of different developers together into a bigger one.
+Scheduler is an API for quantum circuit composing. The principal benefit is the lower cost and queue times by adding circuits of different developers together into a bigger one.
 
 ## Installation
 

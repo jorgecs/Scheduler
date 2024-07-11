@@ -138,7 +138,7 @@ def runAWS(machine:str, circuit:Circuit, shots:int, s3_folder: Optional[str] = N
 
     if "sv1" not in machine and "tn1" not in machine:
 
-        s3_folder = 'amazon-braket-jorgecs' #TODO change this
+        s3_folder = ('amazon-braket-jorgecs', 'test/') #TODO change this
 
         task = device.run(circuit, s3_folder, shots=x, poll_timeout_seconds=5 * 24 * 60 * 60) # Hacer lo mismo que con ibm para recuperar los resultados, guardar el id, usuarios... y despues en el scheduler, al iniciarlo, buscar el el bucket s3 si están los resultados, si no, esperar a que lleguen
         counts = recover_task_result(task).measurement_counts
